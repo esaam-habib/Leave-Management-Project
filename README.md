@@ -21,7 +21,7 @@ The project uses the following technologies:
 - .NET API
 - EF Core
 - xUnit
-- Moq
+- MOQ
 
 ## Getting Started
 
