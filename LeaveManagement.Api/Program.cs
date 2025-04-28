@@ -1,4 +1,4 @@
-using HR.LeaveManagement.Api.Middleware;
+using LeaveManagement.Api.Middleware;
 using HR.LeaveManagement.Application;
 using HR.LeaveManagement.Identity;
 using HR.LeaveManagement.Infrastructure;
