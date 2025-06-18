@@ -1,6 +1,42 @@
-# Leave Management System
+# 🗓️ Leave Management System
 
-This repository contains the source code for a .NET Core Leave Management System built using Clean Architecture. The project uses CQRS, AutoMapper, Blazor, .NET API, and EF Core. It also includes unit and integration tests both.
+A comprehensive **Leave Management System** built with **C#**, **.NET Core**, and **Entity Framework** that streamlines the leave request and approval process for organizations. The system follows **SOLID principles**, improves operational efficiency, and reduces manual errors with automated tracking and workflows.
+
+---
+
+## 🔧 Features
+
+- ✅ Employee Leave Request Creation
+- 🧾 Manager Approval Workflows
+- 🗓️ Leave History and Status Tracking
+- 🛠️ Admin Panel for Leave Configuration
+- 🔐 Role-Based Access Control (Employees / Managers / Admin)
+- ♻️ Automatic Leave Balance Updates
+- 🧱 Designed with **SOLID principles** for maintainability
+
+---
+
+## 📦 Tech Stack
+
+| Component        | Technology                      |
+|------------------|----------------------------------|
+| Backend Language | C#                               |
+| Framework        | ASP.NET Core                     |
+| ORM              | Entity Framework Core            |
+| Database         | SQL Server / SQLite              |
+| Architecture     | Layered Architecture (with Repositories & Services) |
+| Auth & Security  | ASP.NET Identity / JWT / Role-based Authorization |
+| Design Principles| SOLID, Clean Code, DRY, KISS     |
+
+---
+
+## 🧠 System Design
+
+### Modules:
+- **Employee Module**: Submit/view leave requests
+- **Manager Module**: Approve or reject leave requests
+- **Admin Module**: Configure leave types, reset balances, view reports
+
 
 ## Table of Contents
 
@@ -54,6 +90,17 @@ The project contains code samples for several areas of .NET Core development, in
 - EF Core
 - Unit Testing
 - Integration Testing
+
+## 🔐 Authentication & Authorization
+Role-based authorization implemented
+
+Secure endpoints for employee, manager, and admin roles
+
+Password hashing and secure login using ASP.NET Identity
+
+## 👨‍💻 Author
+
+Developed by Esaam Habib
 
 
 
